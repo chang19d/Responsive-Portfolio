@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/spring.png);
+   
+}
+header{
+    background-color: #ffffff;
+    border-color:#cccccc;
+    border-style: solid;
+    border-width: 2px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    
+}
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+   
+
+}
+#aboutme{
+    color:#4aaaa5;
+    position:relative;
+    left:4%;
+    top:2%;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: blue; */
+    margin-top: 4%;
+    font-size:2em;
+    
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 3%;
+    padding: 0;
+    margin-left:4%;
+    margin-right:4%;
+}
+#positionlogo{
+    
+    margin: 0 auto;
+    height:10%;
+    width:960px;
+    position:relative;
+    
+    text-align:center;
+  
+}
+#logo{
+    margin: 0 auto;
+    background-color:#4aaaa5;
+    width:30%;
+   position:relative;
+    float:left;
+    
+    
+    color:white;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: blue; */
+    height:100%;
+   
+}
+
+.nav{
+    margin: 0 auto;
+    width:40%;
+    float:right;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:red; */
+   height: 100%;
+   text-align:center;
+   display:table;
+   position: relative;
+   top:40%;
+   font-size: 65%;
+   
+}
+.nav > li{
+   float:left;
+    list-style:none;
+  
+    
+}
+.nav > li > a{
+    color:#777777;
+    display:block;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 1.5em;
+    
+}
+#border{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#EEEFF6;
+    border-top:none;
+    border-bottom: none;
+    
+}
+
+section{
+    clear:both;
+    width:80%;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#dddddd;
+    margin-top:2%;
+    width:960px;
+    background-color: #ffffff;
+    color:#777777;
+    
+}
+
+.image{
+    margin-left: 4%;
+    float:left;
+    width:25%;
+}
+.clearfix {
+    overflow: auto;
+    margin-bottom:-1%;
+}
+
+.paragraph{
+    line-height:1.5em;
+    margin-right: 4%;
+    margin-left: 34%;
+    margin-top: 0;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:red; */
+}
+
+.paragraph2{
+    line-height:1.5em;
+    margin-left:4%;
+}
+
+
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:8%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    
+    border-top: 10px solid #4aaaa5;
+}
+
+.footpara{
+    position:fixed;
+    text-align:center;
+    bottom:-15;
+    right:50%;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #dddddd; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width:15%;
+    cursor: pointer;
+    font-size: 1.15em;
+}
+
+/* When moving the mouse over the submit button, add a green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    
+    background-color: #ffffff;
+    padding: 38px;
+    padding-top:0px;
+}
+
+/* PORTFOLIO CSS//////////////////////////////////////////////////////////////////////////////////////*/
+div.gallery {
+    border: 1px solid #ccc;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:red; */
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color:#4aaaa5;
+    color:white;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:blue; */
+    position:relative;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 34%;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:green; */
+    margin-left: 3%;
+    margin-bottom:5%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
