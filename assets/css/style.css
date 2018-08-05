@@ -251,17 +251,100 @@ div.desc {
     margin-bottom:5%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 640px) {
+    /* ABOUT PAGE */
+    #logo{
+        width:640px;
+        margin-bottom:-27px;
+        margin-left:0;
+    }
+    h1{
+        text-align:center;
+    }
+    .nav{
+        float:none;
+        padding-left:19%;
+        padding-top:2%;
+        background-color:#ffffff;
+        width:640px;
+        border-style:solid;
+        border-color:#dddddd;
+        margin-left:0;
+    }
+    section{
+        margin-top:15%;
+        width:600px;
+    }
+    #aboutme{
+        padding-right:70%;
+    }
+    .image{
+        width:92%;
+        
+    }
+    .paragraph{
+        padding-left:0;
+        margin-left:5%;
+        margin-right:3%;
+    }
+
+    .paragraph2{
+        padding-left:0;
+        margin-left:5%;
+        margin-right:3%;
+    }
+
+    /* CONTACT PAGE */
+
+    input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px ;
+        border: none;
+        width:15%;
+        cursor: pointer;
+        font-size: 1.15em;
+    }
+
+    /* PORTFOLIO */
     .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
+        padding: 0 6px;
+        /* float: left; */
+        width: 100%;
+        /* border-style: solid;
+        border-width: 1px;
+        border-color:green; */
+        margin-left: 0;
+        margin-bottom:5%;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
+@media only screen and (max-width: 768px) {
+    /* ABOUT PAGE */
+    .positionlogo{
+        width:768px;
+        
     }
+    .nav{
+        
+        padding-top:3%;
+        background-color:#ffffff;
+        margin-top:-3%;;
+        
+        
+        margin-right:13%;
+    }
+    section{
+        margin-top:5%;
+        width:700px;
+        margin-bottom:12%;
+    }
+    /* CONTACT PAGE */
+    
+ 
+}
+@media only screen and (max-width: 980px) {
+  
 }
 
 .clearfix:after {
