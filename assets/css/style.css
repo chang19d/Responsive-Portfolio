@@ -253,6 +253,9 @@ div.desc {
 
 @media only screen and (max-width: 640px) {
     /* ABOUT PAGE */
+    header{
+        position:static;
+    }
     #logo{
         width:640px;
         margin-bottom:-27px;
@@ -340,7 +343,7 @@ div.desc {
         margin-bottom:12%;
     }
     /* CONTACT PAGE */
-    
+
  
 }
 @media only screen and (max-width: 980px) {
